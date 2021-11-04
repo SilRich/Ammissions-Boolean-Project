@@ -1,0 +1,131 @@
+*{
+  box-sizing: border-box;
+}
+/* Sfondo */
+body{
+  background-image: url(background.jpg);
+  background-size: 1800px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* Sfondo Nero Trasparente */
+.rettangolonero{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1200px;
+  height: 1000px;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 25px;
+}
+
+/* logo e testo */
+.logo{
+  width: 220px;
+  padding-top: 50px;
+}
+
+/* Logo e Scritta Centrati */
+.centrotesta{
+  text-align: center;
+  margin-top:5px;
+  padding-top: 5px;
+}
+
+/* testo header */
+.testoheader{
+  color: 	#00EE00;
+  font-size: 30px;
+}
+
+/* testo bianco e font */
+.txtw{
+  color:white;
+  font-family: 'Bebas Neue', cursive;
+}
+
+/* Rettangolo Verde Navigazione */
+.rettangoloverde{
+  background-color: #00EE00;
+  height: 35px;
+  margin-left: 109px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+  padding-top:7px;
+  border: 1px solid white;
+}
+
+/* Informazioni Monoppatini */
+.InfoMonopattino{
+  margin-left: 100px;
+  Padding: 10px;
+}
+
+/* Carica Monopattini */
+
+/* Propietario */
+.Owner{
+  font-size: 30px;
+}
+/* Gino22 */
+.Statocarica1{
+    height: 30px;
+    width: 400px;
+    background: #FFD700;
+    position: relative;
+    border-radius: 7px;
+    padding-top: 10px;
+}
+
+/* Mike24 */
+.Statocarica2{
+    height: 30px;
+    width: 700px;
+    background: #00EEEE;
+    position: relative;
+    border-radius: 7px;
+}
+/* Fede154 */
+.Statocarica3{
+    height: 30px;
+    width: 200px;
+    background: #B0171F;
+    position: relative;
+    border-radius: 7px;
+}
+
+/* margine stato ricarica nomopattini */
+.Statocarica1,.Statocarica2,.Statocarica3{
+  margin-bottom: 25px;
+}
+
+/* link youtube */
+.Follow{
+  font-size: 40px;
+  margin-left: 130px;
+  color: white;
+
+}
+
+/* Aggiornamenti in tempo reale */
+div.Aggiornamenti{
+  margin-left: 750px;
+  margin-right: 130px;
+
+}
+
+/* enntità css 	\21A6 */
+span.Entità:before{
+  content: ' \21A6';
+}
+
+a:hover {
+  background-color: rgba(71, 241, 77, 0.3);
+  border-radius: 10px;
+}
+
+form > span:hover{
+  background-color: Green;
+  border-radius: 10px;
+}
